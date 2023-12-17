@@ -8,6 +8,7 @@
     packages = [
         pkgs.flac
         pkgs.rclone
+        (pkgs.python3.withPackages (p: with p; [ mutagen ]))
     ];
   };
 
