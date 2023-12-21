@@ -7,6 +7,7 @@
     stateVersion = "23.11";
     packages = [
         pkgs.flac
+        pkgs.hashdeep
         pkgs.neovim
         pkgs.rclone
         (pkgs.python3.withPackages (p: with p; [ mutagen ]))
