@@ -10,6 +10,8 @@
         pkgs.hashdeep
         pkgs.neovim
         pkgs.rclone
+        pkgs.unzip
+        pkgs.zip
         (pkgs.python3.withPackages (p: with p; [ mutagen ]))
     ];
   };
